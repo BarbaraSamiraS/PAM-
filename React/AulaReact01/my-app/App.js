@@ -3,7 +3,7 @@ import { AppRegistry } from 'react-native';
 import {View, Text, TextInput, Button, StyleSheet} from 'react-native';
 
 // função principal
-const App = () =>{
+const app = () =>{
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
@@ -62,4 +62,4 @@ const App = () =>{
   },
  });
 
- export default App;
+ export default app;
